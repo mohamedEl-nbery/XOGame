@@ -1,9 +1,10 @@
 body{
-    margin: 10px auto;
-    width: 100vw;
-    margin: 30px 20%;
-    
-    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     display: flex;
@@ -20,18 +21,18 @@ body{
     /*border: 10px solid rgb(145, 146, 134);*/
 }
 .title{
-    width: 630px;
+    width: 625px;
     height: 75px;
     line-height: 75px;
     border: 2px solid grey;
     font-size: 35px;
-    padding: 10px 0;
+    padding: ;
     font-weight: 700;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
 span{
-    color: rgb(248, 232, 2);
+    color: rgb(3, 160, 199);
 }
 .squre{
     /*background-color: darkviolet; */
@@ -52,13 +53,14 @@ span{
 }
 img{
     width: 230px;
-    height: 230px;
-    border-radius: 50%;
+    height: 150px;
+    border: 2px solid rgb(3, 160, 199);
+    box-sizing: border-box;
+    box-shadow: -7px 7px 10px rgba(256,256,256,0.5);
+    padding: 10px;
 }
 .phot{
     margin-left: 30px ;
-    width: auto;
-    justify-content: end;
 }
 .mm{
     color: rgb(211, 3, 44);
@@ -74,7 +76,7 @@ img{
 
 }
 p{
-    color: rgb(248, 232, 2);
+    color: rgb(3, 160, 199);
     font-size: 16px;
     text-align: center;
 }
