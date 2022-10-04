@@ -24,7 +24,7 @@ body{
     width: 625px;
     height: 75px;
     line-height: 75px;
-    border: 2px solid grey;
+    border: 2px solid rgb(3, 160, 199);
     font-size: 35px;
     padding: ;
     font-weight: 700;
@@ -36,7 +36,7 @@ span{
 }
 .squre{
     /*background-color: darkviolet; */
-    border: 2px solid grey;
+    border: 2px solid rgb(3, 160, 199);
     width: 200px;
     height: 200px;
     float: left;
